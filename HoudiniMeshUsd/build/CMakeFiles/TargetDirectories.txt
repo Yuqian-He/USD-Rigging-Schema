@@ -1,0 +1,3 @@
+/Users/naname/Documents/USD-Rigging-Schema/HoudiniMeshUsd/build/CMakeFiles/SOP_importUSD.dir
+/Users/naname/Documents/USD-Rigging-Schema/HoudiniMeshUsd/build/CMakeFiles/edit_cache.dir
+/Users/naname/Documents/USD-Rigging-Schema/HoudiniMeshUsd/build/CMakeFiles/rebuild_cache.dir

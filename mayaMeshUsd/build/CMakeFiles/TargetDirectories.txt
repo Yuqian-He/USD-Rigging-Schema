@@ -1,0 +1,3 @@
+/Users/naname/Documents/masterProject/mayaMeshUsd/build/CMakeFiles/meshInfoCover.dir
+/Users/naname/Documents/masterProject/mayaMeshUsd/build/CMakeFiles/edit_cache.dir
+/Users/naname/Documents/masterProject/mayaMeshUsd/build/CMakeFiles/rebuild_cache.dir

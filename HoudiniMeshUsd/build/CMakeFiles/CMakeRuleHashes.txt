@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+946a8493b6699abc7ad2129c99beefdf SOP_importUSD.proto.h

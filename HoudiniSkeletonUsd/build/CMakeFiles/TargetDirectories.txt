@@ -1,0 +1,3 @@
+/Users/naname/Documents/masterProject/HoudiniSkeletonUsd/build/CMakeFiles/SOP_testSkeleton.dir
+/Users/naname/Documents/masterProject/HoudiniSkeletonUsd/build/CMakeFiles/edit_cache.dir
+/Users/naname/Documents/masterProject/HoudiniSkeletonUsd/build/CMakeFiles/rebuild_cache.dir

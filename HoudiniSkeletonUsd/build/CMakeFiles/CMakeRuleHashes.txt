@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+7571eb332796439579a9a60f0dc66b5a SOP_testSkeleton.proto.h

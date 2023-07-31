@@ -1,0 +1,3 @@
+/Users/naname/Documents/masterProject/mayaSkeletonUsd/build/CMakeFiles/getSkeletonInfo.dir
+/Users/naname/Documents/masterProject/mayaSkeletonUsd/build/CMakeFiles/edit_cache.dir
+/Users/naname/Documents/masterProject/mayaSkeletonUsd/build/CMakeFiles/rebuild_cache.dir
