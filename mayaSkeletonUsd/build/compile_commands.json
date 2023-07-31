@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/naname/Documents/masterProject/mayaSkeletonUsd/build",
-  "command": "/usr/bin/clang++ -DgetSkeletonInfo_EXPORTS -I/Applications/Autodesk/maya2024/Maya.app/Contents/Frameworks/Python.framework/Versions/Current/include/python3.10 -I/Applications/Autodesk/mayausd/maya2024/0.23.1_202304181210-131a6c1/mayausd/USD/include -I/Applications/Autodesk/maya2024/include  -std=c++11 -std=c++14 -Wno-deprecated-declarations -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/getSkeletonInfo.dir/getSkeletonInfo.cpp.o -c /Users/naname/Documents/masterProject/mayaSkeletonUsd/getSkeletonInfo.cpp",
-  "file": "/Users/naname/Documents/masterProject/mayaSkeletonUsd/getSkeletonInfo.cpp",
-  "output": "CMakeFiles/getSkeletonInfo.dir/getSkeletonInfo.cpp.o"
-}
-]

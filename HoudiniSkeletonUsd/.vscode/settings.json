@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "SOP_testSkeleton.C": "cpp",
-        "bitset": "cpp",
-        "__split_buffer": "cpp",
-        "string": "cpp",
-        "vector": "cpp"
-    }
-}
