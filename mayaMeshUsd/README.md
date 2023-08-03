@@ -1,6 +1,6 @@
 # Maya Mesh Plugin
 ## Introduce
-The Maya mesh plugin, developed as a key part of this project, leverages the C++ (Maya API)[https://help.autodesk.com/view/MAYAUL/2022/ENU/?guid=Maya_SDK_Maya_API_introduction_API_Basics_html] to offer a unique capability. This tailored plugin is designed exclusively to export mesh data to a USD file. In essence, it empowers users to seamlessly export selected meshes from Maya to a USD file, enabling smooth import and further manipulation in other (USD-compatible applications)[https://github.com/Yuqian-He/USD-Rigging-Schema/tree/main/HoudiniMeshUsd] like Houdini.
+The Maya mesh plugin, developed as a key part of this project, leverages the C++ [Maya API](https://help.autodesk.com/view/MAYAUL/2022/ENU/?guid=Maya_SDK_Maya_API_introduction_API_Basics_html) to offer a unique capability. This tailored plugin is designed exclusively to export mesh data to a USD file. In essence, it empowers users to seamlessly export selected meshes from Maya to a USD file, enabling smooth import and further manipulation in other [USD-compatible applications](https://github.com/Yuqian-He/USD-Rigging-Schema/tree/main/HoudiniMeshUsd) like Houdini.
 
 ## File Structure
 - getMeshInfo.cpp: This is the main script I wrote for Maya plugin.
