@@ -17,7 +17,8 @@ The Maya mesh plugin, developed as a key part of this project, leverages the C++
 
 ## How to build (only test on macOS)
 ### Before start
-Remember to replace all the paths in CMakeLists.txt to fit your version of Maya and USD (mine is Maya2024), as I didn't figure out how to automatically adapt to all user's paths. I'm on macOS, so most of the paths should be the same, but you should still check yours in case it doesn't look right.
+> [!IMPORTANT]
+> Remember to replace all the paths in CMakeLists.txt to fit your version of Maya and USD (mine is Maya2024), as I didn't figure out how to automatically adapt to all user's paths. I'm on macOS, so most of the paths should be the same, but you should still check yours in case it doesn't look right.
 
 1. line10 --> change to your version of Maya include
 2. line11 --> change to your version of Maya lib
