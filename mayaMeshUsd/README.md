@@ -40,7 +40,8 @@ make
 ### Load plugin in Maya
 Open Maya --> Plug-in Manager --> Browse. Load the ".bundle" file which is usually in your build folder when you build getMeshInfo.cpp. Then open "Maya Scripts Editor" type "getMeshInfo;" in MEL scripts and run. You will find the exported file in "/Users/naname/Documents/" named "test.usda"
 
--> If you want to change the path and name of the exported file, you can change the getMeshInfo.cpp script line 53. Because the time limitation, I haven't done anything compatible yet.
+> [!NOTE]
+>  If you want to change the path and name of the exported file, you can change the getMeshInfo.cpp script line 53. Because the time limitation, I haven't done anything compatible yet.
 
 
 
