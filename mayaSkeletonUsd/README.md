@@ -1,4 +1,4 @@
-# Maya Mesh Plugin
+# Maya Skeleton Plugin
 ## Introduce
 The Maya skeleton plugin, developed as a key part of this project, leverages the C++ [Maya API](https://help.autodesk.com/view/MAYAUL/2022/ENU/?guid=Maya_SDK_Maya_API_introduction_API_Basics_html) to offer a unique capability. This code represents a Maya plugin called "getSkeletonInfo" that exports skeleton data from selected joints in Maya to a USD file. The plugin defines a "Skeleton" structure to store joint names, paths and transforms. It uses recursive functions to traverse the joint hierarchy, extracting joint information and transforming it into USD-compatible data structures. Finally, the plugin creates a new USD stage, defines a skeleton in USD, and exports the joint names, paths, and transforms to the USD file. The resulting USD file can be used in other applications that support USD format, such as Houdini, for [further manipulation](https://github.com/Yuqian-He/USD-Rigging-Schema/tree/main/HoudiniSkeletonUsd).
 
@@ -32,17 +32,17 @@ The Maya skeleton plugin, developed as a key part of this project, leverages the
 ### Build getSkeletonInfo.cpp
 When building this C++ project, the resulting plugin is packaged as a "bundle file." Bundles are special folders treated as single files by macOS. The bundle contains the compiled plugin code, along with necessary resources and metadata. This bundling simplifies plugin distribution, allowing Maya to efficiently load and utilize the plugin within its environment.
 ```c
-//under the folder mayaMeshUsd (make sure your compiler is the same as mine)
+//under the folder mayaSkeletonUsd (make sure your compiler is the same as mine)
 mkdir build
 cmake ..
 make
 ```
 
 ### Load plugin in Maya
-Open Maya --> Plug-in Manager --> Browse. Load the ".bundle" file which is usually in your build folder when you build getMeshInfo.cpp. Then open "Maya Scripts Editor" type "getSkeletonInfo;" in MEL scripts and run. You will find the exported file in "/Users/naname/Documents/" named "mySkeleton.usda"
+Open Maya --> Plug-in Manager --> Browse. Load the ".bundle" file which is usually in your build folder when you build getSkeletonInfo.cpp. Then open "Maya Scripts Editor" type "getSkeletonInfo;" in MEL scripts and run. You will find the exported file in "/Users/naname/Documents/" named "mySkeleton.usda"
 
 > [!NOTE]
->  If you want to change the path and name of the exported file, you can change the getMeshInfo.cpp script line 136. Because the time limitation, I haven't done anything compatible yet.
+>  If you want to change the path and name of the exported file, you can change the getSkeletonInfo.cpp script line 136. Because the time limitation, I haven't done anything compatible yet.
 
 
 
