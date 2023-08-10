@@ -316,6 +316,25 @@ void SOP_testSkeletonUSDVerb::cook(const SOP_NodeVerb::CookParms &cookparms) con
 
                 xform.set(pointOffset, ut_BindTransforms[i]);
             }
+
+            GA_RWHandleM4 hTransforms(gdp->findAttribute(GA_ATTRIB_POINT, "transform"));
+            GA_RWHandleM3 hTransform(gdp->addFloatTuple(GA_ATTRIB_POINT, "transforms", 9));
+
+            GA_Offset ptoff;
+            GA_FOR_ALL_PTOFF(gdp, ptoff)
+            {
+                UT_Matrix4 mat4 = hTransforms.get(ptoff);
+
+                // Extract rotation from 4x4 matrix
+                UT_Matrix3 mat3;
+                mat3(0,0) = mat4(0,0); mat3(0,1) = mat4(0,1); mat3(0,2) = mat4(0,2);
+                mat3(1,0) = mat4(1,0); mat3(1,1) = mat4(1,1); mat3(1,2) = mat4(1,2);
+                mat3(2,0) = mat4(2,0); mat3(2,1) = mat4(2,1); mat3(2,2) = mat4(2,2);
+
+                hTransform.set(ptoff, mat3);
+            }
+            gdp->destroyAttribute(GA_ATTRIB_POINT, "transform");
+            gdp->renameAttribute(GA_ATTRIB_POINT, GA_SCOPE_PUBLIC, "transforms", "transform");
         }
 
     }
