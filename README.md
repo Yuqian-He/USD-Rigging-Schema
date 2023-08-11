@@ -1,6 +1,6 @@
 # Maya-Houdini USD Rigging Schema for Streamlined Animation Workflow
 
-## Overall Idea ([video](https://vimeo.com/853499503?share=copy))
+## Overall Idea ([video](https://vimeo.com/853499503?share=copy) | [slides](https://docs.google.com/presentation/d/1HbZs91eBLlVimX6NNoi3AXVpUG3HCXbR/edit?usp=drive_link&ouid=113134558061279493417&rtpof=true&sd=true))
 ### abstract
 This project presents an innovative approach for transferring mesh and skeleton data from Maya to Houdini using the Universal Scene Description (USD) format, providing a supplementary method to the traditional FBX and ABC data transfer processes. Initially, two plugins were developed using the C++ Maya API, designed to extract mesh and skeleton information from Maya. This data was then converted with the USD API and exported in a USD format. For importing this data into Houdini, two additional plugins were developed utilizing C++ Houdini Development Kit (HDK), converting the USD data into a format that Houdini can recognize and display. In essence, this project explores an alternative avenue for data exchange between Maya and Houdini, contributing to the diversification of data transfer methodologies in the 3D animation industry.
 
