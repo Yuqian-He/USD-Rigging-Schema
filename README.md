@@ -19,7 +19,7 @@ This project presents an innovative approach for transferring mesh and skeleton 
 
 ### Plugin Framework
 #### Maya Plugin Framework with Maya API
-Set up a precise C++ environment for Maya Houdini --> Link Maya build-in USD libraries and Maya libraries in "CMakeLists.txt" --> Choose ".bundle" output format for macOS, bundling code and enhancing distribution. --> Headers included Maya and USD, with a custom MEL command. --> 'doIt' function hold core plugin logic.
+Set up a precise C++ environment for Maya --> Link Maya build-in USD libraries and Maya libraries in "CMakeLists.txt" --> Choose ".bundle" output format for macOS, bundling code and enhancing distribution. --> Headers included Maya and USD, with a custom MEL command. --> 'doIt' function hold core plugin logic.
 
 ![](./image/Maya%20Plugin.png)
 
